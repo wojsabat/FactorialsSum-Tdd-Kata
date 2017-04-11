@@ -7,7 +7,7 @@ namespace FactorialsSumCalculator
         public static int Factorial(this int number)
         {
             var result = 1;
-            for (int i = 1; i <= number; i++)
+            for (int i = 2; i <= number; i++)
             {
                 result *= i;
             }

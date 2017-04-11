@@ -30,7 +30,7 @@ namespace FactorialsSumCalculator.Tests
         }
 
         [TestMethod]
-        public void FactorialOfDigitsSumTests()
+        public void FactorialsOfDigitsSumTests()
         {
             var number = 1234;
             var expected = 1 + 2 + 2 * 3 + 2 * 3 * 4;
